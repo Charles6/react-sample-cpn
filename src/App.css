@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:4px;
+  width: 75%;
+  margin: 100px auto;
+}
+
+.box {
+  padding: 10px;
+  border: solid white 1px;
+}
+
+.date-time-box{
+  grid-column:1/span 2;
+  grid-row: 1
+}
+.weather-box{
+  grid-column:3/span 2;
+  grid-row: 1
+}
+.news-box{
+  grid-column:1/span 3;
+  grid-row: 2
+}
+.link-box{
+  grid-column:4;
+  grid-row: 2
+}
