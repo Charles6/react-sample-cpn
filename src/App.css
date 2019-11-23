@@ -3,6 +3,18 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color:white;
+  display: block;
+  transition: 0.5s;
+}
+a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
 .App {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -14,6 +26,8 @@ body {
 .box {
   padding: 10px;
   border: solid white 1px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .date-time-box{
@@ -31,4 +45,23 @@ body {
 .link-box{
   grid-column:4;
   grid-row: 2
+}
+
+
+.date-time-box {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+#day{
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+#date{
+  grid-column: 2;
+  grid-row: 1;
+}
+#time{
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 40px;
 }
