@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import cx from 'classnames';
-import './DateTime.css';
+import '../components/DateTime.css';
 
 function DateTime() {
   const [day, setDay] = useState();
@@ -12,8 +12,8 @@ function DateTime() {
 
   setInterval(function() {
     var d = new Date(),
-    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
-    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours();
+    minutes = d.getMinutes().toString().length === 1 ? '0'+d.getMinutes() : d.getMinutes(),
+    hours = d.getHours().toString().length === 1 ? '0'+d.getHours() : d.getHours();
 
     setDay(days[d.getDay()]);
     setDate(d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear());
