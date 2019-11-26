@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Website
+
+This project is also hosted through gh-pages at [https://charles6.github.io/react-sample-cpn/](https://charles6.github.io/react-sample-cpn/)
+
 ## Available Scripts
 
 In the project directory, you can run:
