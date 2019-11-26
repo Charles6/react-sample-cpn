@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import cx from 'classnames';
 
+import { getStoryIds, getStory } from './hnApi';
+
 function NewFeed() {
-    return (
+  const [storyIds, setStoryIds] = useState([]);
+
+  useEffect(() => {
+    getStoryIds().then(data => data && setStoryIds(data));
+  }, []);
+
+  return (
       <div className={cx('box', 'news-box')}>
-        News Feed
+        {JSON.stringify(storyIds)}
       </div>
     );
   }

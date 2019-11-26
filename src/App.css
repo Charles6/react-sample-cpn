@@ -40,7 +40,10 @@ a:hover{
 }
 .news-box{
   grid-column:1/span 3;
-  grid-row: 2
+  grid-row: 2;
+  overflow-wrap: anywhere;
+  overflow-y: scroll;
+  max-height: 600px;
 }
 .link-box{
   grid-column:4;
