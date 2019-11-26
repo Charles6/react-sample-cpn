@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-sample-cpn/static/css/main.4337bc4c.chunk.css",
+    "main.js": "/react-sample-cpn/static/js/main.33676301.chunk.js",
+    "main.js.map": "/react-sample-cpn/static/js/main.33676301.chunk.js.map",
+    "runtime-main.js": "/react-sample-cpn/static/js/runtime-main.3c654dba.js",
+    "runtime-main.js.map": "/react-sample-cpn/static/js/runtime-main.3c654dba.js.map",
+    "static/js/2.e8da73e6.chunk.js": "/react-sample-cpn/static/js/2.e8da73e6.chunk.js",
+    "static/js/2.e8da73e6.chunk.js.map": "/react-sample-cpn/static/js/2.e8da73e6.chunk.js.map",
+    "index.html": "/react-sample-cpn/index.html",
+    "precache-manifest.b99780a780af4b5666c19a3ba0c3d62b.js": "/react-sample-cpn/precache-manifest.b99780a780af4b5666c19a3ba0c3d62b.js",
+    "service-worker.js": "/react-sample-cpn/service-worker.js",
+    "static/css/main.4337bc4c.chunk.css.map": "/react-sample-cpn/static/css/main.4337bc4c.chunk.css.map",
+    "static/media/App.css": "/react-sample-cpn/static/media/coffee.6815ca03.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c654dba.js",
+    "static/js/2.e8da73e6.chunk.js",
+    "static/css/main.4337bc4c.chunk.css",
+    "static/js/main.33676301.chunk.js"
+  ]
+}
