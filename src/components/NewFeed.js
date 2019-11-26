@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import cx from 'classnames';
 
-import { getStoryIds, getStory } from './hnApi';
+import { getStoryIds } from './hnApi';
 import Story from '../components/Story'
 
 function NewFeed() {

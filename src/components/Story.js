@@ -1,17 +1,16 @@
 import React, {useEffect, useState} from 'react';
 import cx from 'classnames';
 
-import { getStoryIds, getStory } from './hnApi';
+import { getStory } from './hnApi';
 
 
-function Story({storyId}) {
+function Story({ storyId }) {
     const [ story, setStory] = useState({});
 
     useEffect(()=>{
         getStory(storyId)
             .then(data => data && data.url && setStory(data));
     }, []);
-    const months = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十月'];
 
     const convertTime = (unixTime) => {
         let currentTime = new Date();

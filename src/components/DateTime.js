@@ -18,7 +18,6 @@ function DateTime() {
     setDay(days[d.getDay()]);
     setDate(d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear());
     setTime(hours+':'+minutes);
-
   }, 1000);
 
 
