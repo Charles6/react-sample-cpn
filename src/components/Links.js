@@ -4,7 +4,7 @@ import cx from 'classnames';
 function Links() {
     return (
       <div className={cx('box', 'link-box')}>
-        <h3>Useful Links</h3>
+        <h3>便利なリンク</h3>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Charles6">Github</a>
         <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/">MDN web docs</a>
         <a target="_blank" rel="noopener noreferrer" href="https://applibslist.xyz/">App Libs List</a>

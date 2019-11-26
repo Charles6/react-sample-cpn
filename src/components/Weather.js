@@ -23,7 +23,7 @@ function Weather() {
     return (
       <div className={cx('box', 'weather-box')}>
         {type}
-        <h1>{temp} &deg;C</h1>
+        <div className="temp">{temp} &deg;C</div>
         low: {tempLo} &deg;C | high: {tempHi} &deg;C
       </div>
     );

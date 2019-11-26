@@ -13,10 +13,13 @@ function NewFeed() {
 
   return (
       <div className={cx('box', 'news-box')}>
-        <h3>Hacker News Stories</h3>
-        {storyIds.map(storyIds => (
-          <Story key={storyIds} storyId={storyIds}/>
-        ))}
+        <h3><a target="_blank" rel="noopener noreferrer" href="https://news.ycombinator.com/">ハッカーニュース</a></h3>
+        <div className="new-stories">
+          {storyIds.map(storyIds => (
+            <Story key={storyIds} storyId={storyIds}/>
+          ))}
+        </div>
+
       </div>
 
     );

@@ -5,6 +5,8 @@
 #day{
     grid-column: 1;
     grid-row: 1 / span 2;
+    font-size: 30px;
+    text-align: center;
 }
 #date{
     grid-column: 2;
