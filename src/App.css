@@ -24,7 +24,9 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap:4px;
-  width: 800px;
+  width: 80%;
+  min-width: 500px;
+  max-width: 800px;
   margin: 100px auto;
 }
 
