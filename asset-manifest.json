@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-sample-cpn/static/css/main.281ea339.chunk.css",
+    "main.css": "/react-sample-cpn/static/css/main.4337bc4c.chunk.css",
     "main.js": "/react-sample-cpn/static/js/main.2e9265d6.chunk.js",
     "main.js.map": "/react-sample-cpn/static/js/main.2e9265d6.chunk.js.map",
     "runtime-main.js": "/react-sample-cpn/static/js/runtime-main.3c654dba.js",
@@ -8,15 +8,15 @@
     "static/js/2.e8da73e6.chunk.js": "/react-sample-cpn/static/js/2.e8da73e6.chunk.js",
     "static/js/2.e8da73e6.chunk.js.map": "/react-sample-cpn/static/js/2.e8da73e6.chunk.js.map",
     "index.html": "/react-sample-cpn/index.html",
-    "precache-manifest.39b02803b095062f19ceea37acd2a6c6.js": "/react-sample-cpn/precache-manifest.39b02803b095062f19ceea37acd2a6c6.js",
+    "precache-manifest.61555a8250d975e64008c15f50bd48cf.js": "/react-sample-cpn/precache-manifest.61555a8250d975e64008c15f50bd48cf.js",
     "service-worker.js": "/react-sample-cpn/service-worker.js",
-    "static/css/main.281ea339.chunk.css.map": "/react-sample-cpn/static/css/main.281ea339.chunk.css.map",
+    "static/css/main.4337bc4c.chunk.css.map": "/react-sample-cpn/static/css/main.4337bc4c.chunk.css.map",
     "static/media/App.css": "/react-sample-cpn/static/media/coffee.6815ca03.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.3c654dba.js",
     "static/js/2.e8da73e6.chunk.js",
-    "static/css/main.281ea339.chunk.css",
+    "static/css/main.4337bc4c.chunk.css",
     "static/js/main.2e9265d6.chunk.js"
   ]
 }
