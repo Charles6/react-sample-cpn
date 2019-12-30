@@ -1,19 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import cx from 'classnames';
 
 function Links() {
-    return (
-      <div className={cx('box', 'link-box')}>
-        <h3>便利なリンク</h3>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Charles6">Github</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/">MDN web docs</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://applibslist.xyz/">App Libs List</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/">CodePen</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.epochconverter.com/">Epoch Converter</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://cssfx.dev/">CSS FX</a>
-        <a target="_blank" rel="noopener noreferrer" href="http://htmlcolorcodes.com/">HTML color codes</a>
-      </div>
-    );
-  }
-  
-  export default Links;
+  const [link, setLink] = useState([
+    {label:"Github",url:"https://github.com/Charles6"},
+    {label:"MDN wed docs",url:"https://developer.mozilla.org/en-US/"},
+    {label:"App libs list",url:"https://applibslist.xyz/"},
+    {label:"JSON placeholder",url:"https://jsonplaceholder.typicode.com/"},
+    {label:"unDraw",url:"https://undraw.co/illustrations"},
+    {label:"Codepen",url:"https://codepen.io/"},
+    {label:"epoch converter",url:"https://www.epochconverter.com/"},
+    {label:"CSS FX",url:"https://cssfx.dev/"},
+    {label:"HTML color codes",url:"http://htmlcolorcodes.com/"}
+  ]);
+
+  return (
+    <div className={cx('box', 'link-box')}>
+      <h3>便利なリンク</h3>
+      { link.map(linkInfo => (
+        <a key={linkInfo.url} target="_blank" rel="noopener noreferrer" href={linkInfo.url}>{linkInfo.label}</a>
+      ))
+      }
+    </div>
+  );
+}
+
+export default Links;
