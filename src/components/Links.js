@@ -4,7 +4,7 @@ import cx from 'classnames';
 function Links() {
   const [link, setLink] = useState([
     {label:"Github",url:"https://github.com/Charles6"},
-    {label:"MDN wed docs",url:"https://developer.mozilla.org/en-US/"},
+    {label:"MDN web docs",url:"https://developer.mozilla.org/en-US/"},
     {label:"App libs list",url:"https://applibslist.xyz/"},
     {label:"JSON placeholder",url:"https://jsonplaceholder.typicode.com/"},
     {label:"unDraw",url:"https://undraw.co/illustrations"},
