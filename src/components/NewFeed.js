@@ -7,9 +7,9 @@ import Story from '../components/Story'
 function NewFeed() {
   const [storyIds, setStoryIds] = useState([]);
 
-  useEffect(() => {
+  useInterval(() => {
     getStoryIds().then(data => setStoryIds(data));
-  }, []);
+  }, 300000);
 
   return (
       <div className={cx('box', 'news-box')}>
@@ -19,9 +19,7 @@ function NewFeed() {
             <Story key={storyIds} storyId={storyIds}/>
           ))}
         </div>
-
       </div>
-
     );
   }
   
