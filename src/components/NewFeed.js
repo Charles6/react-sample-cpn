@@ -7,9 +7,13 @@ import Story from '../components/Story'
 function NewFeed() {
   const [storyIds, setStoryIds] = useState([]);
 
-  useInterval(() => {
+  useEffect(() => {
     getStoryIds().then(data => setStoryIds(data));
-  }, 300000);
+    const newsInterval = setInterval(() => {
+      getStoryIds().then(data => setStoryIds(data));
+    }, 300000)
+    return () => clearInterval(newsInterval);
+  }, []);
 
   return (
       <div className={cx('box', 'news-box')}>
