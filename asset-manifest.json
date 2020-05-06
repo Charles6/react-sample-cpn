@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-sample-cpn/static/css/main.68e304b8.chunk.css",
-    "main.js": "/react-sample-cpn/static/js/main.e480fab3.chunk.js",
-    "main.js.map": "/react-sample-cpn/static/js/main.e480fab3.chunk.js.map",
+    "main.js": "/react-sample-cpn/static/js/main.bdcab662.chunk.js",
+    "main.js.map": "/react-sample-cpn/static/js/main.bdcab662.chunk.js.map",
     "runtime-main.js": "/react-sample-cpn/static/js/runtime-main.3c654dba.js",
     "runtime-main.js.map": "/react-sample-cpn/static/js/runtime-main.3c654dba.js.map",
     "static/js/2.fd70d03c.chunk.js": "/react-sample-cpn/static/js/2.fd70d03c.chunk.js",
     "static/js/2.fd70d03c.chunk.js.map": "/react-sample-cpn/static/js/2.fd70d03c.chunk.js.map",
     "index.html": "/react-sample-cpn/index.html",
-    "precache-manifest.4e968898c81fd7124099e3b80bcb7e62.js": "/react-sample-cpn/precache-manifest.4e968898c81fd7124099e3b80bcb7e62.js",
+    "precache-manifest.372a8d8acaa2821b8a83baf1d0b11b6f.js": "/react-sample-cpn/precache-manifest.372a8d8acaa2821b8a83baf1d0b11b6f.js",
     "service-worker.js": "/react-sample-cpn/service-worker.js",
     "static/css/main.68e304b8.chunk.css.map": "/react-sample-cpn/static/css/main.68e304b8.chunk.css.map",
     "static/media/App.css": "/react-sample-cpn/static/media/coffee.6815ca03.gif"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3c654dba.js",
     "static/js/2.fd70d03c.chunk.js",
     "static/css/main.68e304b8.chunk.css",
-    "static/js/main.e480fab3.chunk.js"
+    "static/js/main.bdcab662.chunk.js"
   ]
 }
