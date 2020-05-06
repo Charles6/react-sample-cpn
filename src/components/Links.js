@@ -9,6 +9,7 @@ function Links() {
     {label:"JSON placeholder",url:"https://jsonplaceholder.typicode.com/"},
     {label:"unDraw",url:"https://undraw.co/illustrations"},
     {label:"Codepen",url:"https://codepen.io/"},
+    {label:"JS utilities examples",url:"https://1loc.dev"},
     {label:"epoch converter",url:"https://www.epochconverter.com/"},
     {label:"CSS FX",url:"https://cssfx.dev/"},
     {label:"HTML color codes",url:"http://htmlcolorcodes.com/"}
