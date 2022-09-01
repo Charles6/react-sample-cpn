@@ -7,7 +7,7 @@ function Weather() {
   const [tempLo, setTempLo] = useState();
   const [tempHi, setTempHi] = useState();
 
-  fetch("https://api.openweathermap.org/data/2.5/weather?zip=90046,us&APPID=33d0a0d0219bef1e831ca05c509cff49")
+  fetch("https://api.openweathermap.org/data/2.5/weather?zip=91384,us&APPID=33d0a0d0219bef1e831ca05c509cff49")
     .then(function(data) {
       return data.json();
     }).then(function(data) {
